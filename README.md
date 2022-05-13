@@ -1,4 +1,9 @@
 # Lab-Cripto
+## Hito II
+En la carpeta con el mismo nombre se puede encontrar el código útilizado para la automatización de verificación de credenciales junto con el archivo .txt en donde se encuentran dichas credenciales.
+A continuación se adjunta el video demostración de este proceso https://youtu.be/3ObPrk3w5Gw
+
+## Hito III
 
 En este repositorio, se encuentran los códigos para la completación del Hito III del laboratorio de Criptogrfía estos deben realizar lo siguiente:
 - Registro de usuario
