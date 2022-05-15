@@ -3,7 +3,7 @@ from multiprocessing.connection import wait
 from time import sleep
 from selenium import webdriver
 
-urlue = "https://www.moneytrans.eu/france/en/login/"
+urlue = "https://www.smartagrihubs.eu/login"
 username = "holahola"
 password = "Holahola"
 email = "maria.erazo@mail.udp.cl"
@@ -13,3 +13,8 @@ driver = webdriver.Chrome("chromedriver")
 
 # Logear en pagina chilena
 driver.get(urlue)
+
+driver.find_element_by_xpath("//*[@id=\"_username\"]").send_keys(username)
+driver.find_element_by_xpath("//*[@id=\"_password\"]").send_keys(password)
+
+driver.find_element_by_xpath("//*[@id=\"_submit\"]").click()

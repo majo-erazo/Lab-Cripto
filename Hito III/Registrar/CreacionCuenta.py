@@ -12,14 +12,18 @@ name ="hola"
 #Crear una cuenta en pagina EU
 #driver.get(urleu)
 
-urleuR = "https://www.moneytrans.eu/france/en/register/"
+urleuR = "https://www.smartagrihubs.eu/register"
 
 driver.get(urleuR)
 
-driver.find_element_by_name("email").send_keys(email)
-driver.find_element_by_name("confirmEmail").send_keys(email)
+driver.find_element_by_xpath("//*[@id=\"registration_form__firstname\"]").send_keys(name)
+driver.find_element_by_xpath("//*[@id=\"registration_form__lastname\"]").send_keys(name)
+driver.find_element_by_xpath("//*[@id=\"registration_form__email\"]").send_keys(email)
+driver.find_element_by_xpath("//*[@id=\"registration_form__username\"]").send_keys(username)
+driver.find_element_by_xpath("//*[@id=\"registration_form__password\"]").send_keys(password)
 
-driver.find_element_by_id("wt-cli-accept-btn").click()
-driver.find_element_by_id("emailRegistrationButton").click()
+driver.find_element_by_xpath("//*[@id=\"registration_form_termsAccepted\"]").click()
 
-driver.find_elements_by_xpath("/html/")
+driver.find_element_by_xpath("//*[@id=\"registration_form__submit\"]").click()
+
+print("Se ha enviado un correo de verificación por favor autoricelo")
