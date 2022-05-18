@@ -4,7 +4,7 @@ from time import sleep
 from selenium import webdriver
 
 urlch = "https://www.psicoperspectivas.cl/index.php/psicoperspectivas/login"
-username = "holahola"
+username = "asdfasjf"
 password = "Holahola"
 email = "maria.erazo@mail.udp.cl"
 name ="hola"

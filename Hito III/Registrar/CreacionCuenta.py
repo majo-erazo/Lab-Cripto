@@ -3,11 +3,10 @@ from selenium import webdriver
 
 driver = webdriver.Chrome("chromedriver")
 
-email = "maria.erazo@mail.udp.cl"
-username = "Holahola"
-password = "Holahola"
-email = "maria.erazo@mail.udp.cl"
-name ="hola"
+email = "ykrisl_i106i@chyju.com"
+username = "NuevoHolahola"
+password = "HolaNuevohola"
+name ="holahola"
 
 #Crear una cuenta en pagina EU
 #driver.get(urleu)
